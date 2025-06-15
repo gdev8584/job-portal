@@ -2,8 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import colors from "colors";
 import { connectDB } from "./config/db";
-import authRouter from "./src/routes/authRoutes";
-import errorMiddelware from "./src/middlewares/errorMiddleware";
+import authRouter from "./routes/authRoutes";
+import errorMiddelware from "./middlewares/errorMiddleware";
 import cors from "cors";
 
 dotenv.config(); // config dotenv
