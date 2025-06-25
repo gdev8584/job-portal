@@ -3,6 +3,7 @@ import {
   registerController,
   loginController,
 } from "../controllers/authController";
+import userAuth from "../middlewares/authMiddleware";
 
 // router object
 const router = express.Router();
