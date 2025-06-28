@@ -19,7 +19,7 @@ app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/test", testRouter);
 // add validation middelware
 app.use(errorMiddelware);
-
+// sample api
 app.get("/", (req, res) => {
   res.send("<h1>Welcome to JOB PORTAL</h1>");
 });
